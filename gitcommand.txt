@@ -128,6 +128,23 @@
             =>git add [filename]
             =>git commit -m log
 
+
+  git remote -v 查看当前所有远程地址别名
+  git remote add [别名] [远程地址]
+
+  推送
+
+  git push [别名][分支名]
+
+  克隆
+
+    命令 git origin [远程地址]
+
+    效果
+      完整的把远程库下载到本地
+      创建origin远程地址别名
+      初始化本地库
+
 Git基本原理
 
   哈希
@@ -156,3 +173,4 @@ Git保存版本的机制
 
   切换分支
   =>切换指针指向的位置
+
