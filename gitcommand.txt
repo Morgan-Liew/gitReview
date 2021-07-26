@@ -102,8 +102,15 @@
       3.分支操作
 
         =>创建分支
+          git branch
+
         =>查看分支
+
+          git branch -v 查看所有分支
+        
         =>切换分支
+          
+          git checkout bugger 
         =>合并分支
         =>解决冲突
         
