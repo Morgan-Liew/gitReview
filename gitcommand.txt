@@ -144,6 +144,11 @@
       完整的把远程库下载到本地
       创建origin远程地址别名
       初始化本地库
+  
+  拉取
+     pull = fetch + merge 
+     git fetch [远程库地址别名][远程分支名]
+     git merge [远程库地址别名/远程分支名]
 
 Git基本原理
 
