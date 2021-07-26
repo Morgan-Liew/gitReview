@@ -1,0 +1,41 @@
+本地库操作
+
+    1.本地库初始化 
+
+      命令：git add ??? git init 
+      效果
+        lhw@DESKTOP-9S7PFT2 MINGW64 ~/Desktop/gitReview (master)
+        $ ls .git/
+        config  description  HEAD  hooks  info  objects  refs
+      注意：.git 目录中存放的是本地库相关的子目录和文件，不要删除，也不要胡乱修改
+
+      设置签名 用户名 & Email地址
+
+      命令：
+
+        项目级别/仓库级别：仅在当前本地库范围内有效
+        git config user.name 
+        git config user.email 
+        信息保存位置：./.git/config
+
+        系统用户级别：登录当前操作系统的用户范围
+        git config --global user.name 
+        git config --global user.email 
+        信息保存位置：~/.gitconfig
+
+        级别优先级：
+           就近原则：项目级别优先于系统用户级别，二者都有时，采用项目级别的签名，
+           只有系统用户级别则采用其级别签名为准
+           不允许二者都没有
+
+      作用：标识不同开发者身份
+
+
+    2.基本操作
+
+        git status 查看状态
+        git add  文件添加追踪
+        git rm --catched ...txt 停止追踪
+        git commit 从暂存区提交到本地库
+
+    3.分支管理
