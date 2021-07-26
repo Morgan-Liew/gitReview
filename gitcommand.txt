@@ -119,4 +119,6 @@
            git merge [branchname]
 
         =>解决冲突
+
+          分支的表现
         
