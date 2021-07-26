@@ -38,4 +38,18 @@
         git rm --catched ...txt 停止追踪
         git commit 从暂存区提交到本地库
 
+        前进后退记录本质
+
+        通过一个HEAD指针指向某一位置
+
+        基于索引值操作[推荐]
+          
+          git reset --hard [index]
+
+        使用^符号:只能后退
+        
+          git reset --hard HEAD^
+
+        使用~符号
+
     3.分支管理
