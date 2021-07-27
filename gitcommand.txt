@@ -132,6 +132,11 @@
   git remote -v 查看当前所有远程地址别名
   git remote add [别名] [远程地址]
 
+  .eg
+  git remote add origin https://github.com/Morgan-Liew/gitReview.git
+  git remote add origin_ssh git@github.com:Morgan-Liew/gitReview.git
+
+
   推送
 
   git push [别名][分支名]
